@@ -1,0 +1,107 @@
+.container{
+    padding-left: 42px;
+    padding-top: 15px;
+    display: flex;
+}
+
+.activityContainer1{
+    background-color: white;
+    width:26vw;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.activityContainer2 {
+    margin-left: 70px;
+    background-color: white;
+    width: 40vw;
+    padding-left: 35px;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.svgRow1{
+    margin-left: 7%;
+}
+
+.image{
+    margin:20px;
+}
+
+.tableWrapper {
+    max-height: 300px;
+    overflow-y: auto;
+    width:550px;
+}
+
+#table1 {
+    width: 400px;
+   
+}
+
+.bigContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.activityContainer3{
+    margin-top: 40px;
+    margin-left: 70px;
+    background-color: white;
+    width: 40vw;
+    padding-left: 35px;
+    height: 29vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../assets/dashboard/syringe.png") ;
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+.items{
+    list-style-type: none;
+    display: inline;
+    margin-right: 60px;
+}
+
+.title2 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+.biggestLoansList {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.loan_owner_name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.amount {
+    font-size: 14px;
+}
+
+
